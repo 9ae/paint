@@ -1,0 +1,60 @@
+$studio: rgb(202,235,232)
+$kitchen: rgb(248,176,156)
+$accent1: rgb(235,239,229)
+$accent2: rgb(235,239,229)
+
+$moding: 25px solid $accent1
+
+.studio
+  background-color: $studio
+
+.kitchen
+  background-color: $kitchen
+
+.center-wall
+  position: absolute
+  top: 0
+  left: 0
+  width: 300px
+  height: 200px
+  border-bottom: $moding
+
+.window
+  width: 80%
+  height: 40%
+  margin: 0 auto
+  position: relative
+  top: 50px
+  background-color: white
+  border: 8px solid $accent2
+
+.hall
+  position: absolute
+  top: 0
+  left: 300px
+  width: 1000px
+  height: 300px
+  transform: skewY(20deg) rotateY(20deg) translate(-40px, 110px)
+  border-bottom: $moding
+  box-sizing: border-box
+  overflow: hidden
+  .wall
+    display: inline-block
+    width: 50%
+    height: 100%
+    box-sizing: border-box
+    float: left
+
+
+.controls
+  position: absolute
+  top: 400px
+  left: 20px
+  border: #aaa 1px dotted
+
+  .color-group
+    padding: 12px 5px
+
+    input
+      background-color: rgba(255,255,255,0.3)
+      border: 0

@@ -1,0 +1,40 @@
+Vaspar
+
+studio: rgb(202,235,232)
+  5006-9A
+  Sea Air
+kitchen: rgb(248,176,156)
+  2001-2A
+  Simply Coral
+accent: rgb(235,239,229)
+  7005-21
+  New Monsoon
+
+studio: rgb(191,226,231)
+  5004-9B
+  Out of the Blue
+kitchen: rgb(103,196,203)
+  5004-10A
+  Rapids
+accent: rgb(247,245,231)
+  7005-16
+  Betsy's Linen
+accent2: rgb(103,196,203)
+  5004-10A
+  Rapids
+
+  studio: {
+    hex: 'd6e2e4',
+    code: 'BM AF-540',
+    name: 'Constellation'
+  },
+  kitchen: {
+    hex: 'b97551',
+    code: 'BM AF-255',
+    name: 'Firenze'
+  },
+  accent: {
+    hex: 'f9f2de',
+    code: 'BM 2153-70',
+    name: 'Ivory Tusk'
+  }
